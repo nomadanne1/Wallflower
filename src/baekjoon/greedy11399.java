@@ -1,15 +1,16 @@
 package baekjoon;
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+// ATM 
 public class greedy11399 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
-		//
 		int N = sc.nextInt();
 		
 		System.out.println(N);
@@ -21,16 +22,19 @@ public class greedy11399 {
 		
 		//배열 -오름차순 정렬
 		Arrays.sort(arr);
+		
 		int minimum = 0;
 		
 		for(int i = 0; i<N; i++) {
 			for (int j=0; j<i+1; j++) {
 				minimum += arr[j]; 
+				System.out.println("i값:"+i+"/j값:"+j);
+				System.out.println(minimum);
 			}
+			System.out.println("-------------");
 		}
-		System.out.println("최소값:"+minimum);
-		
-
+		System.out.println(minimum);
+	
 	}
 
 }

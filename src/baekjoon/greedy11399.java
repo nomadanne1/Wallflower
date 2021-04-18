@@ -28,10 +28,10 @@ public class greedy11399 {
 		for(int i = 0; i<N; i++) {
 			for (int j=0; j<i+1; j++) {
 				minimum += arr[j]; 
-				System.out.println("i값:"+i+"/j값:"+j);
-				System.out.println(minimum);
+				//System.out.println("i값:"+i+"/j값:"+j);
+				//System.out.println(minimum);
 			}
-			System.out.println("-------------");
+			//System.out.println("-------------");
 		}
 		System.out.println(minimum);
 	

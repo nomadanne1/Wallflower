@@ -33,7 +33,7 @@ public class greedy1417 {
 		while(true) {
 		Arrays.sort(arr); //후보 오름차순정렬
 		boolean election = true;	
-			if (dasom<=arr[arr.length-1]) { // 다솜득표수 <=득표수가장 높은후보 -> 다솜Lose.
+			if (dasom<=arr[arr.length-1]) { //-> 다솜Lose.
 				dasom++;
 				arr[arr.length-1]--;
 				min++;

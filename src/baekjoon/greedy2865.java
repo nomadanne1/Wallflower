@@ -22,25 +22,31 @@ public class greedy2865 {
 		
 		for (int i =0; i<M; i++) {
 			for (int j = 0; j<N; j++) {
+				map = new HashMap<Integer,Double>();
 				map.put(sc.nextInt(),sc.nextDouble());
 				list.add(map);
 			}	
 		}
 		
+		System.out.println(list.get(0).get(1));
+		System.out.println(list.get(1).get(1));
+		
+		
 		//각 참가자의 최대값 뽑아냄
 		Double[] arr = new Double[N];
 		
 		double max = 0;
-		for(HashMap<Integer,Double>map_ : list) {
-		    for(int i=0; i<N; i++) {
-			double tmp = map_.get(i+1);
+		for(int i = 0; i<M;i++) {
+		    for(int j=0; j<N; j++) {
+			double tmp = list.get(i).get(j+1);
 		    // 각참가자의  가장큰 능력치 배열에 저장.
 			if(tmp>max)
-		       arr[i]=tmp;
-			System.out.println(arr[i]);
+		       arr[j]=tmp;
+			//System.out.println(arr[j]);
 		    }
 		}
 		
+	
 		//내림차순 정렬
 		Arrays.sort(arr,Comparator.reverseOrder());
 		

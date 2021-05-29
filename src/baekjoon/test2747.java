@@ -9,9 +9,13 @@ public class test2747 {
 		int input = sc.nextInt();
 		
 		// 0 1 1 2 3 5 8 ...
-		int fibo1 = 0;
-		int fibo2 = 1;
-		int fibo3 = 1;
+		
+		long fibo1 = 0;
+		long fibo2 = 1;
+		long fibo3 = 1;
+//		int fibo1 = 0;
+//		int fibo2 = 1;
+//		int fibo3 = 1;
 	
 		for (int i=2; i<=input; i++) {
 			fibo3 = fibo1 + fibo2; 
@@ -25,9 +29,7 @@ public class test2747 {
 		}else {
 			System.out.println(fibo3);			
 		}
-	
-		
-		
+
 	}
 }
 //  재귀함수 사용 -> 시간초과

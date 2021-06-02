@@ -3,7 +3,7 @@ package baekjoon;
 import java.util.Scanner;
 
 //소인수분해
-public class test11653 {
+public class Test11653 {
 	
 	public static void main(String[] args ) {
 		

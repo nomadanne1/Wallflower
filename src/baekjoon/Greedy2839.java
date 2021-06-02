@@ -3,7 +3,7 @@ package baekjoon;
 import java.util.Scanner;
 
 //º≥≈¡πË¥ﬁ
-public class greedy2839 {
+public class Greedy2839 {
 	
 	public static void main (String args[]) {
 		

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // ATM 
-public class greedy11399 {
+public class Greedy11399 {
 
 	public static void main(String[] args) {
 		

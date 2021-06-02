@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 // 나는 위대한 슈퍼스타K
-public class greedy2865 {
+public class Greedy2865 {
 	
 	public static void main (String[] args) {
 		 

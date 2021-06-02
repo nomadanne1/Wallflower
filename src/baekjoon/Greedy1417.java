@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //국회의원 선거
-public class greedy1417 {
+public class Greedy1417 {
 	
 	public static void main (String[] args) {
 		

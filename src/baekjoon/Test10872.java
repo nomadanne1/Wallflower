@@ -5,6 +5,7 @@ import java.util.Scanner;
 // 팩토리얼
 public class Test10872 {
 	public static void main(String[] args) {
+		// 반복분
 //		Scanner sc = new Scanner(System.in);
 //		int N = sc.nextInt();
 //		
